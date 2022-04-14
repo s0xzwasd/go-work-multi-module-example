@@ -4,4 +4,9 @@ use (
     .
 	consumer
 	producer
+	reducer
+)
+
+replace (
+    ./producer => ./reducer
 )
